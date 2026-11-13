@@ -26,6 +26,10 @@ public class Proyecto {
     private String nombre;
 
     @NotNull
+    @Column(nullable = false)
+    private int duracion;
+
+    @NotNull
     @Column(name = "fecha_inicio", nullable = false)
     private LocalDate fechaInicio;
 

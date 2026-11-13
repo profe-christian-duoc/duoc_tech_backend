@@ -114,18 +114,21 @@ public class DataInitializer {
 
                     Proyecto.builder()
                             .nombre("Sistema ERP")
+                            .duracion(300)
                             .fechaInicio(LocalDate.of(2026, 1, 15))
                             .fechaTermino(LocalDate.of(2026, 12, 30))
                             .build(),
 
                     Proyecto.builder()
                             .nombre("Portal de Recursos Humanos")
+                            .duracion(214)
                             .fechaInicio(LocalDate.of(2026, 3, 1))
                             .fechaTermino(LocalDate.of(2026, 9, 30))
                             .build(),
 
                     Proyecto.builder()
                             .nombre("Sistema de Gestion Financiera")
+                            .duracion(300)
                             .fechaInicio(LocalDate.of(2026, 5, 1))
                             .fechaTermino(null)
                             .build()
